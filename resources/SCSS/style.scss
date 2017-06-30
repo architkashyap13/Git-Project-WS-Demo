@@ -5,3 +5,10 @@
 @import "customVariables";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@mixin border-radius($radius){
+  border-radius: $radius;
+}
+
+.div1{
+  @include border-radius(5px);
+}

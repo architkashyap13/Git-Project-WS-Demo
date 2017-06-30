@@ -5807,5 +5807,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.div1 {
+  border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */
